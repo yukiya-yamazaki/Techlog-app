@@ -1,5 +1,5 @@
 require 'rails_helper' # rails_helper で定義した設定を読み込み
- 
+
 RSpec.describe 'Home', type: :request do # テスト対象モジュールとテストの種類
   describe 'GET /' do # テストする機能に関する説明
     it 'HTTP ステータス 200 を返す' do # どういう結果を期待しているか
